@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- <title>Document</title> -->
+</head>
+
+<body class="bg-gradient-to-b from-black to-slate-950 relative">
+  <!-- <div id="background"></div> -->
+  <div class="fixed h-52 w-52 bg-blue-800 -translate-x-20 translate-y-[10vh] rounded-full blur-[150px]"></div>
+  <div class="fixed h-52 w-52 bg-orange-900 top-[80vh] -right-16 rounded-full blur-[150px]"></div>
+  <div class="object-fit bg-[url('/img/LooperGroup2.png')] bg-no-repeat text-white">
+    <nav id="navigation-menu"
+      class="navigation p-3 w-full fixed flex justify-between items-center z-30 backdrop-blur-md">
+      <a href="" class="flex justify-evenly items-center gap-3">
+        <span class="logo text-4xl font-semibold pl-3 rounded-full">Omkar.dev</span>
+      </a>
+
+      <div id="nav-menu" class="hidden md:flex gap-14 pr-8">
+        <a href="/about.html" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">About</a>
+        <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Projects</a>
+        <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Contact</a>
+      </div>
+      <button class="menu-button p-1 border-2 rounded-lg md:hidden" onclick="handleMenu()">
+        <i class="w-6 fa-solid fa-bars"></i>
+      </button>
+
+      <div id="nav-dialog" class="hidden md:hidden fixed inset-x-0 inset-y-500 top-0 p-3 backdrop-blur-md">
+        <div class="nav-bar flex justify-between">
+          <a href="" class="flex justify-evenly items-center gap-3">
+            <span class="logo text-4xl font-semibold pl-3">Omkar.dev</span>
+          </a>
+          <button class="px-1 border-2 rounded-lg" onclick="handleMenu()">
+            <i class="w-6 h-5 fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="mt-6 flex flex-col">
+          <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">About</a>
+          <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Projects</a>
+          <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Hero Section -->
+
+      <div id="hero" class="hero min-h-screen z-20 ">
+        <div id="hero-container"
+          class="pt-20 max-w-4xl mx-auto px-6 text-center md:pt-28 flex flex-col items-center gap-6">
+          <div>
+            <img src="/img/Profile.jpeg" alt="" class="h-64 rounded-full object-contain">
+          </div>
+          <div class="flex flex-col gap-2">
+            <p id="namePlate" class="font-black text-7xl animate-bounce mt-5 z-10">Omkar Karekar!</p>
+            <p class="text-xl font-semibold flex justify-center items-center">I do Code & <span
+                class="!text-transparent !font-semibold  !bg-clip-text !bg-gradient-to-r from-purple-500 to-orange-400 ml-1">Chill</span><img
+                src="/img/popcorn.gif" loading="lazy" class="object-contain h-8" alt=""></p>
+            <span class="md:text-md text-gray-300 max-w-[600px]">"Crafting Engaging Digital Experiences: Elevate Your
+              Online Presence with a Servicenow Developer and React Web Development Expert"</span>
+          </div>
+          <div class="flex justify-center flex-wrap md:flex-row gap-5">
+            <button type="button"
+              class="px-8 py-2 border-2 font-semibold border-white rounded-3xl hover:bg-white hover:text-black">Contact
+              Me <i class="fa-regular fa-envelope ml-1"></i></button>
+
+            <!-- <button type="button" class="px-10 py-2 border-2 font-semibold border-white rounded-3xl hover:bg-white hover:text-black">Download CV</button> -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- About Me -->
+
+    <div class="about min-h-[70vh]">
+      <div id="hero" class="hero z-20 ">
+        <div id="hero-container" class="p-10 max-w-4xl mx-auto text-center md:pt-12 flex flex-col items-center gap-6">
+          <div class="flex flex-col gap-2">
+            <p id="" class="font-semibold text-6xl mt-5">ABOUT ME</p>
+            <p
+              class="tracking-[0.5em] font-light flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-orange-500">
+              EXPLORE NOW</p>
+            <p class="pt-5 text-gray-300 max-w-[950px]">As a passionate software engineer, I thrive on the intricate
+              dance between logic and creativity. Currently immersed in the dynamic world of WebHR, my expertise centers
+              around React Native, where I seamlessly blend technology with innovation.<br><br>
+              With a fervor for crafting elegant solutions, I navigate the ever-evolving landscape of software
+              development. My journey involves translating concepts into code, creating seamless user experiences, and
+              constantly pushing the boundaries of what's possible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+
+    <div class="Experience min-h-[100vh]">
+      <div id="hero" class="hero z-20">
+        <div id="hero-container" class="p-10 max-w-4xl mx-auto text-center md:pt-12 flex flex-col items-center gap-6">
+          <div class="flex flex-col gap-2">
+            <p id="" class="font-semibold text-6xl mt-5">EXPERIENCE</p>
+            <p
+              class="tracking-[0.5em] font-light flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-orange-500">
+              EXPLORE NOW</p>
+          </div>
+          <div class="company-date-info flex justify-between w-[-webkit-fill-available]  pt-5 flex-wrap">
+            <div class="company-info flex items-center gap-2">
+              <i class="fa-regular fa-building"></i>
+              <span><span class="font-semibold">Infocenter</span> / ServiceNow Consultant</span>
+            </div>
+            <div class="date">
+              <span>NOV 2022 - Present, India</span>
+            </div>
+          </div>
+          <p class="text-left">
+            Currently, I am working on WebHR Mobile Application, WebHR is a Cloud based Social HR Software for SMEs by
+            Verge Systems Inc. WebHR is currently used in over 160 countries world wide by thousands of organizations to
+            manage HR, As a React.js developer with 1.5 year of experience, I have a strong foundation in creating
+            dynamic and responsive mobile and web applications. <br><br>
+            My experience with React Native has allowed me to develop cross-platform mobile applications that run
+            seamlessly on both iOS and Android platforms. Additionally, my proficiency in React.js has equipped me with
+            the skills to create fast, scalable, and dynamic web pages with excellent user experiences. I have a deep
+            understanding of component-based architecture and state management, and I am well-versed in the latest web
+            development trends and technologies.
+          </p>
+          <div class="flex flex-wrap gap-x-4 gap-y-2">
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-blue-500 fa-regular fa-snowflake"></i> ServiceNow Tool</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-green-500 fa-solid fa-arrows-spin"></i> ITSM</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-yellow-500 fa-brands fa-js"></i> JavaScript</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-red-500 fa-brands fa-angular"></i> Angular Js</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-green-500 fa-solid fa-code"></i> Client / Server side script</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-purple-500 fa-brands fa-bootstrap"></i> BootStrap</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-orange-500 fa-brands fa-html5"></i> HTML</button>
+            <button class="tech py-2 px-6 border border-gray-700 rounded-full"><i class="mr-1 text-blue-500 fa-brands fa-css3-alt"></i> CSS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="/stars.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
+</body>
+
+</html>

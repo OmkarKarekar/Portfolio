@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body, .hero{
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+    position: relative;
+    margin: 0;
+      overflow: hidden;
+}
+
+.logo{
+    font-family: "Lobster Two", sans-serif !important;
+    color: white !important;
+}
+
+.chill{
+    background: linear-gradient(90deg, purple, rgb(255, 53, 184), rgb(255, 128, 0));
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+}
+
+canvas{
+    position: absolute
+}
+
+h1{
+    background-color: transparent !important;
+}
+
+/* .company-date-info{
+    width: -webkit-fill-available;
+} */

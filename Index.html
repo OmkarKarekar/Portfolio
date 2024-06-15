@@ -17,10 +17,10 @@
   <!-- <title>Document</title> -->
 </head>
 
-<body class="bg-gradient-to-b from-black to-slate-950 relative">
+<body class="bg-gradient-to-b from-black to-slate-950 relative snap-mandatory scroll-snap-x-mandatory">
   <!-- <div id="background"></div> -->
-  <div class="fixed h-52 w-52 bg-blue-700 -translate-x-20 translate-y-[10vh] rounded-full blur-[150px]"></div>
-  <div class="fixed h-52 w-52 bg-orange-700 top-[80vh] -right-16 rounded-full blur-[150px]"></div>
+  <div class="blue fixed h-60 w-60 bg-blue-700 -translate-x-20 translate-y-[10vh] rounded-full blur-[150px]"></div>
+  <div class="orange fixed h-60 w-60 bg-orange-700 top-[80vh] -right-16 rounded-full blur-[150px]"></div>
   <div class="object-fit bg-[url('/img/LooperGroup2.png')] bg-no-repeat text-white">
     <nav id="navigation-menu"
       class="navigation p-3 w-full fixed flex justify-between items-center z-30 backdrop-blur-md">
@@ -32,7 +32,7 @@
         <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">About</a>
         <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Experience</a>
         <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Projects</a>
-        <a href="" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Contact</a>
+        <a href="mailto:omkarkarekar62@gmail.com" class="font-medium hover:bg-[#ffffff2f] rounded-xl px-6 py-2">Contact</a>
       </div>
       <button class="menu-button p-1 border-2 rounded-lg md:hidden" onclick="handleMenu()">
         <i class="w-6 fa-solid fa-bars"></i>
@@ -51,7 +51,7 @@
           <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">About</a>
           <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Experience</a>
           <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Projects</a>
-          <a href="" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Contact Me</a>
+          <a href="mailto:omkarkarekar62@gmail.com" class="font-medium p-3 rounded-md hover:bg-[#ffffff14]">Contact</a>
         </div>
       </div>
     </nav>
@@ -75,49 +75,64 @@
               Online Presence with a Servicenow Developer and React Web Development Expert"</span>
           </div>
           <div class="flex justify-center flex-wrap md:flex-row gap-5">
-            <a class="w-[-webkit-fill-available] flex justify-center items-center text-black bg-white md:w-60 px-10 py-2 border-2 font-semibold rounded-3xl hover:bg-transparent hover:text-white" href="documents/Omkar Karekar Resume.pdf"><button type="button" download class="flex">Download CV <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" stroke-width="1.5" stroke="currentColor" class="ml-2 size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-            </svg>
-            </button>
+            <a class="w-[-webkit-fill-available] flex justify-center items-center text-black bg-white md:w-60 px-10 py-2 border-2 font-semibold rounded-3xl hover:bg-transparent hover:text-white"
+              href="documents/Omkar Karekar Resume.pdf"><button type="button" download class="flex">Download CV <svg
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 28" stroke-width="1.5"
+                  stroke="currentColor" class="ml-2 size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+              </button>
             </a>
-            <a class="w-[-webkit-fill-available] md:w-56 px-10 py-2 border-2 font-semibold border-white rounded-3xl hover:bg-white hover:text-black" href="mailto:omkarkarekar62@gmail.com"><button type="button"
-              class="">Contact
-              Me <i class="fa-regular fa-envelope ml-1"></i></button></a>
+            <a class="w-[-webkit-fill-available] md:w-56 px-10 py-2 border-2 font-semibold border-white rounded-3xl hover:bg-white hover:text-black"
+              href="mailto:omkarkarekar62@gmail.com"><button type="button" class="">Contact
+                Me <i class="fa-regular fa-envelope ml-1"></i></button></a>
           </div>
         </div>
       </div>
     </main>
 
     <!-- Skills -->
- 
-    <div class="Tech min-h-[70vh]">
-        <div id="hero-container" class="p-10 max-w-4xl mx-auto text-center md:pt-10 md:pb-30 flex flex-col justify-center items-center gap-6">
-          <div class="flex flex-col gap-2 justify-center items-center">
-            <p id="" class="font-semibold text-6xl">SKILLS</p>
-            <p
-              class="tracking-[0.5em] font-light flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-orange-500">
-              EXPLORE NOW</p>
-            <div class="skills h-9 mt-8 flex flex-wrap justify-center max-w-[500px] gap-6">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/javascript-js.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/file-type-reactjs.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/tailwind.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/python.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/file-type-angular.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/bootstrap.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/file-type-html.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/file-type-css.svg" alt="">
-            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/git.svg" alt="">
-            <img class="h-14 md:h-16 p-4 w-40 border rounded-xl border-gray-700 hover:animate-bounce" src="/img/ServiceNow-logo-white-1.svg" alt="">
-            </div>
+
+    <div class="Tech min-h-[60vh] md:min-h-[70vh]">
+      <div id="hero-container"
+        class="p-10 max-w-4xl mx-auto text-center md:pt-10 md:pb-30 flex flex-col justify-center items-center gap-6">
+        <div class="flex flex-col gap-2 justify-center items-center">
+          <p id="" class="font-semibold text-6xl">SKILLS</p>
+          <p
+            class="tracking-[0.5em] font-light flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-orange-500">
+            EXPLORE NOW</p>
+          <div class="skills h-9 mt-8 flex flex-wrap justify-center max-w-[500px] gap-6">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/javascript-js.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/file-type-reactjs.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/tailwind.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/python.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/file-type-angular.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/bootstrap.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/file-type-html.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/file-type-css.svg" alt="">
+            <img class="h-16 w-16 md:h-20 p-4 md:w-20 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/git.svg" alt="">
+            <img class="h-14 md:h-16 p-4 w-40 border rounded-xl border-gray-700 hover:animate-bounce"
+              src="/img/ServiceNow-logo-white-1.svg" alt="">
           </div>
         </div>
-      
+      </div>
+
     </div>
 
 
     <!-- About Me -->
 
-    <div class="about min-h-[60vh]">
+    <div class="about min-h-[80vh] md:min-h-[70vh]">
       <div id="hero" class="hero z-20 ">
         <div id="hero-container" class="p-10 max-w-4xl mx-auto text-center md:pt-12 flex flex-col items-center gap-6">
           <div class="flex flex-col gap-2">
@@ -125,12 +140,15 @@
             <p
               class="tracking-[0.5em] font-light flex justify-center items-center text-transparent bg-clip-text bg-gradient-to-r from-purple-800 to-orange-500">
               EXPLORE NOW</p>
-            <p class="pt-5 text-gray-300 max-w-[950px]">As a passionate software engineer, I thrive on the intricate
-              dance between logic and creativity. Currently immersed in the dynamic world of WebHR, my expertise centers
-              around React Native, where I seamlessly blend technology with innovation.<br><br>
-              With a fervor for crafting elegant solutions, I navigate the ever-evolving landscape of software
-              development. My journey involves translating concepts into code, creating seamless user experiences, and
-              constantly pushing the boundaries of what's possible.</p>
+            <p class="pt-5 text-gray-300 max-w-[950px]">
+              As a ServiceNow Consultant with a strong background in JavaScript and ITSM tools, I excel in creating
+              efficient, user-centric solutions. I have extensive experience with front-end technologies like React and
+              Angular, and design frameworks such as Bootstrap and Tailwind CSS. My UI/UX design skills in Figma
+              complement my technical expertise, allowing me to deliver seamless user experiences. <br><br>Passionate
+              about innovation, I thrive on translating business needs into practical solutions, enhancing both
+              functionality and user satisfaction. I am dedicated to continuous learning and collaborative development,
+              always aiming to push the boundaries of technology.
+            </p>
           </div>
         </div>
       </div>
@@ -138,7 +156,7 @@
 
     <!-- Experience -->
 
-    <div class="Experience min-h-[100vh]">
+    <div class="Experience min-h-screen">
       <div id="hero" class="hero z-20">
         <div id="hero-container" class="p-10 max-w-4xl mx-auto text-center md:pt-10 flex flex-col items-center gap-6">
           <div class="flex flex-col gap-2">
@@ -150,32 +168,41 @@
           <div class="company-date-info flex justify-between w-[-webkit-fill-available]  pt-5 flex-wrap">
             <div class="company-info flex items-center gap-2">
               <i class="fa-regular fa-building"></i>
-              <span><span class="text-xl font-semibold">Infocenter</span> / ServiceNow Consultant</span>
+              <span><span class="text-xl font-semibold text-red-700">Info</span><span
+                  class="text-xl font-semibold text-blue-800">center</span> / ServiceNow Consultant</span>
             </div>
             <div class="date">
               <span>NOV 2022 - Present, India</span>
             </div>
           </div>
           <p class="text-left">
-            Currently, I am working on WebHR Mobile Application, WebHR is a Cloud based Social HR Software for SMEs by
-            Verge Systems Inc. WebHR is currently used in over 160 countries world wide by thousands of organizations to
-            manage HR, As a React.js developer with 1.5 year of experience, I have a strong foundation in creating
-            dynamic and responsive mobile and web applications. <br><br>
-            My experience with React Native has allowed me to develop cross-platform mobile applications that run
-            seamlessly on both iOS and Android platforms. Additionally, my proficiency in React.js has equipped me with
-            the skills to create fast, scalable, and dynamic web pages with excellent user experiences. I have a deep
-            understanding of component-based architecture and state management, and I am well-versed in the latest web
-            development trends and technologies.
+            I am a ServiceNow Consultant at InfoCenter, specializing in optimizing business processes with ServiceNow
+            solutions. ServiceNow is a leading platform for digital workflows, enhancing productivity through
+            streamlined operations. My expertise lies in ServiceNow development, configuration, and implementing
+            tailored solutions for IT Service Management (ITSM) and Incident Management. <br><br> I collaborate closely with
+            clients to understand their needs, scripting in JavaScript, configuring workflows, and integrating
+            third-party applications. Passionate about driving organizational efficiency, I stay updated with the latest
+            ServiceNow capabilities and industry best practices to deliver exceptional service experiences.
           </p>
+
+
           <div class="flex flex-wrap gap-x-4 gap-y-2">
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-blue-500 fa-regular fa-snowflake"></i> ServiceNow Tool</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-green-500 fa-solid fa-arrows-spin"></i> ITSM</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-yellow-500 fa-brands fa-js"></i> JavaScript</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-red-500 fa-brands fa-angular"></i> Angular Js</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-green-500 fa-solid fa-code"></i> Client / Server side script</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-purple-500 fa-brands fa-bootstrap"></i> BootStrap</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-orange-500 fa-brands fa-html5"></i> HTML</button>
-            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i class="mr-1 text-blue-500 fa-brands fa-css3-alt"></i> CSS</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-blue-500 fa-regular fa-snowflake"></i> ServiceNow Tool</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-green-500 fa-solid fa-arrows-spin"></i> ITSM</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-yellow-500 fa-brands fa-js"></i> JavaScript</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-red-500 fa-brands fa-angular"></i> Angular Js</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-green-500 fa-solid fa-code"></i> Client / Server side script</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-purple-500 fa-brands fa-bootstrap"></i> BootStrap</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-orange-500 fa-brands fa-html5"></i> HTML</button>
+            <button class="tech py-2 px-6 border border-gray-800 rounded-full"><i
+                class="mr-1 text-blue-500 fa-brands fa-css3-alt"></i> CSS</button>
           </div>
         </div>
       </div>

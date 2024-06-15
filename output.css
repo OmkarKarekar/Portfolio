@@ -647,8 +647,8 @@ video {
   height: 1.25rem;
 }
 
-.h-52{
-  height: 13rem;
+.h-60{
+  height: 15rem;
 }
 
 .h-64{
@@ -667,10 +667,6 @@ video {
   height: auto;
 }
 
-.min-h-\[100vh\]{
-  min-height: 100vh;
-}
-
 .min-h-\[50vh\]{
   min-height: 50vh;
 }
@@ -679,16 +675,20 @@ video {
   min-height: 60vh;
 }
 
-.min-h-\[65vh\]{
-  min-height: 65vh;
+.min-h-\[70vh\]{
+  min-height: 70vh;
 }
 
 .min-h-screen{
   min-height: 100vh;
 }
 
-.min-h-\[70vh\]{
-  min-height: 70vh;
+.min-h-\[80\]{
+  min-height: 80;
+}
+
+.min-h-\[80vh\]{
+  min-height: 80vh;
 }
 
 .w-16{
@@ -699,12 +699,12 @@ video {
   width: 10rem;
 }
 
-.w-52{
-  width: 13rem;
-}
-
 .w-6{
   width: 1.5rem;
+}
+
+.w-60{
+  width: 15rem;
 }
 
 .w-\[-webkit-fill-available\]{
@@ -759,6 +759,10 @@ video {
 
 .animate-bounce{
   animation: bounce 1s infinite;
+}
+
+.snap-mandatory{
+  --tw-scroll-snap-strictness: mandatory;
 }
 
 .flex-col{
@@ -1061,6 +1065,11 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.text-blue-800{
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
 .text-gray-300{
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -1084,6 +1093,11 @@ video {
 .text-red-500{
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-red-700{
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
 .text-transparent{
@@ -1144,14 +1158,6 @@ h1{
   background-color: transparent !important;
 }
 
-/* .company-date-info{
-    width: -webkit-fill-available;
-} */
-
-/* .skills img{
-    height: 36px;
-} */
-
 @keyframes bounce{
   0%, 100%{
     transform: translateY(-25%);
@@ -1210,6 +1216,10 @@ h1{
 
   .md\:h-20{
     height: 5rem;
+  }
+
+  .md\:min-h-\[70vh\]{
+    min-height: 70vh;
   }
 
   .md\:w-20{

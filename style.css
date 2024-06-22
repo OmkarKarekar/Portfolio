@@ -5,6 +5,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 *{
     margin: 0;
     padding: 0; 
@@ -15,7 +16,20 @@
     color: white !important;
     position: relative;
     margin: 0;
-      overflow: hidden;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #000000; /* Background of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px; /* Roundness of the scrollbar thumb */
 }
 
 .logo{
